@@ -162,6 +162,11 @@ box-shadow: 0 0 4px rgba(0,0,0,.25);
 	.mobile-hide{
 		display: none;
 	}
+
+	.footer> div{
+		grid-column: 1/-1; 
+
+	}
 }
 
 

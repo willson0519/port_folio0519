@@ -147,7 +147,13 @@ body{
 	color: #eee;
 	text-decoration: none;
 }
+.copyright{
+	max-width: 1200px;
+	margin:auto;
+	padding: 20px;
+	grid-column: 1/-1;
 
+}
 	@media screen and (max-width: 690px){
 		
 .wrapper{
@@ -203,4 +209,8 @@ body{
 	}
 	.mobile-hide{
 		display: none;
+	}
+	.footer> div{
+		grid-column: 1/-1; 
+
 	}

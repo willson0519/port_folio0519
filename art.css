@@ -191,7 +191,10 @@ body{
 	.mobile-hide{
 		display: none;
 	}
+	.footer> div{
+		grid-column: 1/-1; 
 
+	}
 	
 
 
